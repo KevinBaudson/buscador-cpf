@@ -66,7 +66,7 @@ function App() {
           <span>Rua: {cep.logradouro}</span>
           <span>Complemento: {cep.complemento}</span>
           <span>Bairro: {cep.bairro}</span>
-          <span>{cep.localidade} - {cep.uf}</span>
+          <span>Cidade: {cep.localidade} - {cep.uf}</span>
           </main>
         )}
           
